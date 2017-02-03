@@ -66,8 +66,8 @@ public class Main {
 
         do {
             int numSides = getDieSize("Enter number of die sides");
-            int die1 = rollDieMethodTwo(numSides);
-            int die2 = rollDieMethodTwo(numSides);
+            int die1 = rollDieMethodOne(numSides);
+            int die2 = rollDieMethodOne(numSides);
             displayRoll(die1, die2, rollCounter);
             rollCounter++;
             System.out.println("Continue (Y/N)");
